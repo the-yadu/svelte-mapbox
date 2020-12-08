@@ -41,7 +41,7 @@
 
       marker.setPopup(popup)
     }
-    marker.on('dragend', onDragEnd);
+    
     marker
       .setLngLat({ lng, lat })
       .addTo(map)
